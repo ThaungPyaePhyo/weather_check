@@ -35,7 +35,7 @@ class WeatherService
                 $dateTime = (new \DateTime())->setTimestamp($timestamp);
                 $dateTime->setTimezone(new \DateTimeZone('UTC'));
                 $dateTime->modify("+" . ($timezoneOffset / 3600) . " hours");
-                $localTime = $dateTime->format('d/m/Y H:i A');
+                $localTime = $dateTime->format('d/m/Y H:i:s');
 
                 return [
                     'city' => $city,
