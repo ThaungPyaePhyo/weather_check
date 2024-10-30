@@ -19,7 +19,7 @@ Welcome to **WeatherApp**, a Laravel application that fetches real-time weather 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/WeatherApp.git
+git clone git@github.com:ThaungPyaePhyo/weather_check.git
 cd WeatherApp
 ```
 ### 2. Install Dependencies
