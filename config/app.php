@@ -105,6 +105,8 @@ return [
         ),
     ],
 
+    'weather_api_key' => env('OPENWEATHER_API_KEY'),
+
     /*
     |--------------------------------------------------------------------------
     | Maintenance Mode Driver

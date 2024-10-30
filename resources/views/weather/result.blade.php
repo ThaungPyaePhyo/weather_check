@@ -9,7 +9,7 @@
                 <div class="bg-blue-50 p-4 rounded-lg shadow-md text-left space-y-2 mt-4">
                     <h2 class="text-xl font-semibold text-blue-800">Weather in {{ $weatherData['city'] }}</h2>
                     <p><strong>Temperature:</strong> {{ $weatherData['temperature'] }} °C</p>
-                    <p><strong>Weather:</strong> {{ ucfirst($weatherData['description']) }}</p>
+                    <p><strong>Weather:</strong> {{ ucfirst($weatherData['weather']) }}</p>
                     <p><strong>Date and Time:</strong> {{ $weatherData['timestamp'] }}</p>
                 </div>
             @endif
