@@ -17,12 +17,12 @@ class WeatherController extends Controller
     public function index(Request $request)
     {
         $city = $request->input('city');
-        $weatherData = null;
 
         if ($city) {
             $weatherData = $this->weatherService->getWeatherByCity($city);
+            return view('weather.result', compact('weatherData'));
         }
 
-        return view('weather.index', compact('weatherData'));
+        return view('weather.index');
     }
 }
