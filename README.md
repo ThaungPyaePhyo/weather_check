@@ -65,7 +65,6 @@ php artisan serve
 
 
 ### 5. Docker Command
-To serve a Laravel application with Docker, ensure you change the DB_HOST value in your .env file from 127.0.0.1 to mysql.
 
 Build the Docker images:
 ```bash
